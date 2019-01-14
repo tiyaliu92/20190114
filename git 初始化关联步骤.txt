@@ -5,3 +5,10 @@ $ git commit -m "first commit"
 $ git push -u origin master
 Username for 'https://github.com':输入用户名密码就成功了
 ssh-keygen -t rsa -C “example@gmail.com”
+
+cd ~/.ssh
+explorer . 这两步找到公钥 ，把 id_rsa.pub里的一段码复制出来
+
+找到github官网上的setting，点击SSH and GPG keys菜单，点击ssh heys旁边的new ssh keys ，
+把复制的代码贴进来，就实现了用户名和仓库的关联，以后就不用每次操作都输入用户名了
+
