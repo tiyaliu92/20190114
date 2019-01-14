@@ -1,0 +1,6 @@
+$ git init
+$ git status
+$ git add .
+$ git commit -m "first commit"
+$ git push -u origin master
+Username for 'https://github.com':输入用户名密码就成功了
